@@ -1,0 +1,2 @@
+Viết chương trình tìm lần đầu tiên 3 xúc xắc cùng một mặt
+Thủ tục hàm

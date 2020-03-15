@@ -1,0 +1,6 @@
+Sử dụng HashMap <Integer,String> để lưu danh sách các cuốn sách cùng với mã của nó, sau đó:
++) Thêm
++) Xuất danh sách
++) Sửa
++) Xóa
++) Tìm kiếm

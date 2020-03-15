@@ -1,0 +1,7 @@
+Viết chương trình kiểm tra năm nhuận
+
+*Note: 
++) Năm nhuận (leap year) : Năm nhuận là những năm có 366 ngày (lịch dương)
+	Cứ 4 năm DL liên tiếp sẽ có một năm 366 ngày, gọi là năm nhuận.
++) Chia hết cho 4 và không chia hết cho 100
++) Hoặc là chia hết cho 400.

@@ -1,0 +1,4 @@
+Viết chương trình in ra số Googol
+*Googol là một số nguyên rất lớn, được viết bằng 10^100 trong hệ thập phân, hay có một trăm chữ số 0 theo sau chữ số 1:
+
+10.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000

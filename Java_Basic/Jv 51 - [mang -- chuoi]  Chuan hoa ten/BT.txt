@@ -1,0 +1,2 @@
+Viết chương trình chuẩn hóa tên
+Sử dụng phương pháp chuyển mảng thành chuỗi và ngược lại

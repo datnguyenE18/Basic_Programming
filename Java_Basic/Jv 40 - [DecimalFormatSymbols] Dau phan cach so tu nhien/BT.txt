@@ -1,0 +1,2 @@
+Viết chương trình ví dụ về DecimalFormatSymbols
+Gợi ý, chương trình đánh dấu phân cách số tự nhiên (xuất số tiền trong ngân hàng)

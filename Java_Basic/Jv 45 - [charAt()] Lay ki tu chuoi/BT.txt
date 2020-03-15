@@ -1,0 +1,1 @@
+VD về lấy một kí tự bất kì trong chuỗi đã biết trước

@@ -1,0 +1,4 @@
+Viết chương trình lọc tên file hoặc tên Folder qua đường dẫn
+VD: Đường dẫn: D:/music/bolero/longme.mp3
+Lọc ra  longme.mp3
+	longme

@@ -1,0 +1,3 @@
+Dùng Switch case để viết chương trình tính số ngày trong một tháng (thánh nhập từ bàn phím)
+
+

@@ -1,0 +1,2 @@
+Viết chương trình miêu tả bằng lời tiếng kêu của Mèo, Chó, Kiến (Ví dụ mèo: Meo Meo)
+VD về tính thừa kề trong Java

@@ -1,0 +1,1 @@
+In ra màn hình tên Edison và Bill Gates sử dụng 2 class là Person và PersonTest

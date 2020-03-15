@@ -1,0 +1,12 @@
+Sử dụng 2 class để FieldSampleTest và FieldSample để lấy ví dụ về trường tĩnh và trường 
+thường
+VD In ra màn hình:
+
+obj1.myValue= Value1
+obj1.MY_STATIC_FIELD= 100
+FieldSample.MY_STATIC_FIELD= 100
+obj2.myValue= Value2
+obj2.MY_STATIC_FIELD= 100
+ ------------- 
+obj2.MY_STATIC_FIELD= 200
+

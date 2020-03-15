@@ -1,0 +1,17 @@
+Lấy ví dụ về Overloading
+
+* NOTE:
+
+Trong Java, overloading được định nghĩa là nạp chồng phương thức, có nghĩa là nếu trong một lớp có nhiều phương thức cùng tên nhưng:
+- Khác nhau về số đối số truyền vào và các đối số có cùng kiểu dữ liệu.
+- Có cùng số đối số truyền vào và các đối số không có cùng kiểu dữ liệu. 
+- Khác nhau trình tự kiểu dữ liệu của các đối số.
+
+Chúng ta có 3 cách để thực hiện nạp chồng phương thức đó là "thay đổi số đối số truyền vào", "thay đổi kiểu dữ liệu của các đối số" và "thay đổi trình tự của các đối số đó."
+
+Lưu ý:
+
+Trong Java, chúng ta không thể thực hiện nạp chồng phương thức chỉ bằng cách thay đổi kiểu trả về của phương thức đó.
+Hàm tạo cũng có thể được nạp chồng.
+
+Overloading được sử dụng khi trong cùng một phương thức, chúng ta lại muốn làm thêm một công việc khác.

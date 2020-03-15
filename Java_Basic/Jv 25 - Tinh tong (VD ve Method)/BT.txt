@@ -1,0 +1,12 @@
+Sử dụng 2 class MethodSampleTest và MethodSample, viết chường trình java 
+lấy ví dụ về 
++) Phương thức thông thường.
+Phương thức tĩnh
+Phương thức final.
+
++) In ra màn hình 2 dòng 
+Text = Some text
+Text = New Text
+
++) Tính tổng 10,20,30
+và 20,30,40 

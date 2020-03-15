@@ -1,0 +1,2 @@
+Lấy ví dụ về xóa khoảng trắng dư thừa: 
+Cả hai bên trong chuỗi | Chỉ bên phải chuỗi | Chỉ bên trái chuỗi

@@ -1,0 +1,6 @@
+Lấy ví dụ về hàm tìm chuỗi
+
+indexOf : tìm vị trí đầu tiên xuất hiện kí tự trong chuỗi
+lastindexOf : tìm vị trí cuối cùng xuất hiện kí tự trong chuỗi
+contains : kiểm tra kí tự giống với kí tự trong chuỗi
+StringTokenizer : kiểm tra số lần xuất hiện một kí tự nào đó trong chuỗi 

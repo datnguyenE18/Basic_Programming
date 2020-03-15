@@ -1,0 +1,3 @@
+Viết một chương trình cho máy thu ngân ở trong quầy bán hàng với Tiền khách trả, tiền hàng,
+tiền thiếu / tiền thối(thừa)
+Sử dụng phương thức Hàm

@@ -1,0 +1,7 @@
+Có thể bạn chưa biết Kim Tự Tháp Giza là từ hơn 2 triệu khối đá
+Bây giờ ta muốn xây một kim tự tháp thu nhỏ bằng cách xếp các khối lập phương lại với nhau
+Ví dụ một mô hình có 3 tầng, tầng thứ 1 được xếp từ 9 khối lập phương, tầng 2 từ 4 khối, 
+tầng 1 từ chỉ 1 khối. Vậy để xếp được hình Kim tự tháp này chúng ta cần 9 + 4 + 1 =14
+khối lập phương. (Xem hình mô phỏng)
+Hỏi để xếp được n tầng thì cần bao nhiêu khối lập phương
+Số khối được nhập từ bàn phím.
