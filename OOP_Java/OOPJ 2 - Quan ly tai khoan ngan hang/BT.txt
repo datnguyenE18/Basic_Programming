@@ -1,0 +1,7 @@
+Thực hành quản lý tài khoản ngân hàng
+
++) Tạo 1 class mới cho Bank Account
++) Tạo các trường Account number (Số tài khoản), balance (số dư/ tiền còn lại), customer name (Tên khách hàng), phone (SĐT), email (Email)
++) Tạo hàm getter và setter
++) Tạo hàm Contructer
++) Tạo hai phương thức gửi tiền -deposit, và rút tiền -withdrawn mô tả quá trình gửi tiền và rút tiền

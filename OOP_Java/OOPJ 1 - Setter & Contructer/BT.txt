@@ -1,0 +1,7 @@
+In ra thông số của 2 loài chó Pitbull và Becgie: (Có thể dùng các cách khác nhau để phân biệt)
+
+Thông số: 
++) PITBULL: color-blue| Heigh-0| Weigh-0
+
+Thông số: 
++) BECGIE: Color-null| Heigh-100| weigh-100
