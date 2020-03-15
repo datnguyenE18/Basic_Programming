@@ -1,0 +1,2 @@
+Viết những hàm cơ bản (mảng 1 chiều - cấp phát động) như Nhập , xuất, cấp phát vùng nhớ, 
+thêm, xóa phần tử trong mảng động

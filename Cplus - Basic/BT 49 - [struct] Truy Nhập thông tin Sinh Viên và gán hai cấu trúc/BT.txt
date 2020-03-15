@@ -1,0 +1,5 @@
+Viết chương trình Nhập Xuất thông tin sinh viên (Kiểu dữ liệu cấu trúc struct)
+Thông tin sinh viên gồm:
++ Họ tên
++ Mã số sinh viên:
++ điểm 

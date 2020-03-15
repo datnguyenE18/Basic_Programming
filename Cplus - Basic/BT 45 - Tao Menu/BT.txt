@@ -1,0 +1,2 @@
+Tạo menu đơn giản về xuất nhập mảng 
+Sử dung Kỹ thuật Siêu mảng động
