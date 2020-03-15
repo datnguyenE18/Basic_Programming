@@ -1,0 +1,1 @@
+Nhập một số nguyên từ bàn phím sau đó đưa kết qua ra file *.txt

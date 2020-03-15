@@ -1,0 +1,12 @@
+Bài tập
+Nhập vào từ màn hình 1 số tự nhiên N. In ra màn hình các số từ 1 tới N mà không chia hết cho 5, mỗi số cách nhau bởi một dấu cách
+
+Ví dụ:
+Với N=1, thì màn hình hiển thị "1 "
+Với N=6, thì màn hình hiển thị "1 2 3 4 6 " 
+Số 5 không đc hiển thị do 5 chia hết cho 5
+Đầu vào: số tự nhiên N
+Đầu ra: các số tự nhiên từ 1 tới N trừ các số chia hết cho 5 đc hiển thị trên màn hình
+Thời gian chạy: 0.2s
+Gợi ý
+Đọc phần lý thuyết dưới đây để biết cách sử dụng câu lệnh continue để bỏ qua các giá trị chia hết cho 5.

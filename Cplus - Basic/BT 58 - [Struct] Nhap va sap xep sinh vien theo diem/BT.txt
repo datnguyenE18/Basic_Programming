@@ -1,0 +1,2 @@
+Viết chương trình nhập thông tin sinh viên sau đó sắp xếp theo điểm
+(chia tách file)

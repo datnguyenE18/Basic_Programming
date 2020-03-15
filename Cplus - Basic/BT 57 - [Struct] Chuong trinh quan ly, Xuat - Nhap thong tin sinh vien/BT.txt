@@ -1,0 +1,18 @@
+VIẾT CHƯƠNG TRÌNH NHẬP VÀ QUẢN LÝ THÔNG TIN SINH VIÊN
+
+Hãy khai báo kiểu đữ liệu để biểu diễn thông tin của một sinh viên(SinhVien).
+	Biết rằng 1 sinh viên gồm những thông tỉn như sau:
+
+- Mã số sinh viên: chuỗi tối đa 20 kí tự
+
+- Họ tên sinh viên: chuỗi tối đa 30 kí tự
+
+- Điểm Kĩ Thuật lập trình: kiểu số thực
+
+- Điểm Toán rời rạc: kiểu số thực
+
+- Điểm CTDL_GT: kiểu số thực
+
+1. Viết hàm nhập danh sách thông tin sinh viên.
+
+2. Viết hàm xuất danh sách thông tin sinh viên

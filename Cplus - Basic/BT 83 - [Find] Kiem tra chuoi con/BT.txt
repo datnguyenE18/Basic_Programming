@@ -1,0 +1,13 @@
+Nhập vào từ màn hình 2 xâu kí tự string1 và string2. Viết chương trình kiểm tra xem xâu string2 có phải là xâu con của xâu string1 hay không? Nếu phải, in ra dòng chữ "string2 is a substring of string1", ngược lại in ra dòng chữ "string2 is not a substring of string1"
+
+Ví dụ:
+	Với string1="abc" và string2="ab", thì màn hình hiển thị dòng chữ "string2 is a substring of string1"
+	Với string1="abc" và string2="d", thì màn hình hiển thị dòng chữ "string2 is not a substring of string1"
+	Ko thể tìm thấy xâu "d" trong xâu "abc"
+Đầu vào: 2 xâu kí tự string1 và string2 nhập vào từ bàn phím
+Đầu ra: dòng chữ "string2 is a substring of string1" hoặc dòng chữ "string2 is not a substring of string1" hiển thị trên màn hình
+Thời gian chạy: 0.2s
+
+Gợi ý
+	Để tìm kiếm 1 xâu có xuất hiện trong xâu khác hay không, có thể dùng hàm find(). 
+	Cũng có thể duyệt toàn bộ các kí tự trong xâu string2 để xem có tìm thấy trong xâu string1 không

@@ -1,0 +1,10 @@
+Bài tập
+Cho trước một ký tự. Viết một chương trình kiểm tra xem nó là chữ cái, chữ số hay một ký tự đặc biệt. Nếu là chữ số, in ra "N"; nếu là chữ cái, in ra "A"; nếu là ký tự đặc biệt, in ra "S" trên màn hình.
+
+Ví dụ
+Với character = "e", "A" hiển thị trên màn hình. 
+Với character = "8", "N" hiển thị trên màn hình.
+Với character = "$", "S" hiển thị trên màn hình. 
+Đầu vào: Ký tự nhập từ bàn phím.
+Đầu ra: "A", "N" hoặc "S" hiển thị trên màn hình.
+Thời gian chạy: 0.2s

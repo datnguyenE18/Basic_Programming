@@ -1,0 +1,1 @@
+Viết chương trình tính tổng 2 đường chéo của mảng 2 chiều

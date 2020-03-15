@@ -1,0 +1,1 @@
+Viết chương trình Cấu trúc (Struct) cơ bản. Về mảng Struct

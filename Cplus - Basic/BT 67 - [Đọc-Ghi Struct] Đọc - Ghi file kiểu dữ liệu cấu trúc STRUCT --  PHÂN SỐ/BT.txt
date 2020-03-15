@@ -1,0 +1,18 @@
+Dữ liệu trong File: INPUT.TXT gồm các thông tin sau:
+- Dòng đầu tiên: Số lượng các phân số.
+- Các dòng tiếp theo, mỗi dòng lưu thông tin 1 phân số
+
+Yêu cầu:
+1. Rút gọn các phân số và lưu vào file RUTGONPHANSO.TXT 
+2. Tìm phân số lớn nhất - kết quả ghi ra file: OUTPUT.TXT
+
+VD:
+INPUT.TXT
+4
+2/4
+2/3
+6/8
+4/5
+
+OUTPUT.TXT
+4/5

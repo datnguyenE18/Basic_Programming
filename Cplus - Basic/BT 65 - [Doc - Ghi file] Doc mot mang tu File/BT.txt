@@ -1,0 +1,2 @@
+Viết chương trình đọc một mảng từ output.txt sau đó ghi kết quả bài toán ra input.txt
+Bài toán Kiểm tra Số Nguyên Tố
