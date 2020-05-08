@@ -1,0 +1,6 @@
+Cho một list các số nguyên n phần tử lst được nhập vào từ bàn phím, bạn hãy viết chương trình tính tổng các phần tử trong list vừa nhập.
+
+Ví dụ nếu bạn nhập n = 4, lst = [4, 5, 3, 2] thì màn hình sẽ hiển thị ra:
+
+14
+Giải thích: 4 + 5 + 3 + 2 = 14
