@@ -1,0 +1,13 @@
+Input 3 integers x, y, z from keyboard. Check whether x is even or odd.
+
+	+) If x is an even number, check whether y is greater than or equal to 20 or not. If y >= 20, print y is greater than or equal to 20; otherwise, print y is less than 20.
+	+) If x is an odd number, check whether z is greater than or equal to 30 or not. If z >= 30, print z is greater than or equal to 30; otherwise, print z is less than 30.
+ 
+* Example:
+	+) For x = 20, y = 33, z = 15, the output should be y is greater than or equal to 20. Because x % 2 = 0 and y > 20
+	+) For x = 15, y =23, z = 20, the output should be z is less than 30. Because x % 2 != 0 and z < 30
+
+* Input: x, y, z are integers entered through keyboard.
+
+* Output: The text displays on the screen.
+	Execution time limit: 1s
