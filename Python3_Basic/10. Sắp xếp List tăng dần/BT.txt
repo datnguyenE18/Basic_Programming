@@ -1,0 +1,6 @@
+Cho một list các số nguyên n phần tử lst được nhập vào từ bàn phím, bạn hãy viết chương trình sắp xếp các phần tử trong list theo thứ tự tăng dần và hiển thị list đó ra màn hình.
+
+Ví dụ:
+	* Nếu bạn nhập n = 5, lst = [4, 2, 1, 6, 4] thì chương trình sẽ hiển thị ra [1, 2, 4, 4, 6]
+
+	* Nếu bạn nhập n = 5, lst = [4, 1, 5, 10, 7] thì chương trình sẽ hiển thị ra [1, 4, 5, 7, 10].
