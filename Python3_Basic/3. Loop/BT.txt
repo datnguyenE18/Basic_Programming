@@ -1,0 +1,22 @@
+Given a natural number temperature with temperature is entered through keyboard.
+
+* Check the temperature for the below conditions then print the answer on the screen:
+	+) If temperature >= 100, print the text Stay at home and enjoy a good movie on the screen.
+	+) If temperature >= 92, print the text Stay at home on the screen.
+	+) If temperature = 75, print the text Go outside and enjoy the weather on the screen.
+	+) If temperature < 0, print the text It's cool outside on the screen.	
+	+) For other conditions, print the text Let's go to school on the screen.
+
+
+* Example:
+	+) For temperature = 130, the output should be Stay at home and enjoy a good movie.
+	+) For temperature = 93, the output should be Stay at home.
+	+) For temperature = 75, the output should be Go outside and enjoy the weather.
+	+) For temperature = -10, the output should be It's cool outside.
+	+) For temperature = 20, the output should be Let's go to school.
+
+
+* Input: temperature is an integer entered through keyboard
+
+* Output: The text displays on the screen.
+	Executime time limit: 1s
