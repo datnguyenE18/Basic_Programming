@@ -1,0 +1,6 @@
+Cho một list các số nguyên n phần tử lst được nhập từ bàn phím. Bạn hãy viết chương trình hiển thị ra màn hình số nhỏ nhất trong list vừa nhập.
+
+Ví dụ 
+
+Nếu bạn nhập n = 3, lst = [1, 3, 2] thì chương trình sẽ hiển thị ra 1 (do 1 là giá trị nhỏ nhất trong lst):
+Nếu bạn nhập n = 3, lst = [34, 35, 27] thì chương trình sẽ hiển thị ra 27.
