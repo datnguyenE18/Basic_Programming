@@ -1,0 +1,3 @@
+Bạn hãy viết chương trình nhập từ bàn phím 2 số nguyên a và b. Sau đó hiển thị ra màn hình a mũ b (a^b).
+
+Ví dụ nếu bạn nhập a = 2, b = 3 thì màn hình sẽ hiển thị ra: 8
