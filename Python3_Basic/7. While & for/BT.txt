@@ -1,0 +1,15 @@
+Cho số nguyên a được nhập từ bàn phím, bãn hãy viết chương trình hiển thị ra màn tích của a với các số từ 1 đến 5.
+
+Ví dụ nếu bạn nhập a = 10 thì màn hình sẽ hiển thị ra:
+	10 * 1 = 10
+	10 * 2 = 20
+	10 * 3 = 30
+	10 * 4 = 40
+	10 * 5 = 50
+
+Nếu bạn nhập a = 5 thì màn hình sẽ hiển thị ra:
+	5 * 1 = 5
+	5 * 2 = 10
+	5 * 3 = 15
+	5 * 4 = 20
+	5 * 5 = 25 
