@@ -1,0 +1,11 @@
+Input two integers x and y from keyboard. Write a Python program to check whether x is greater then y or not. Print True if x is greater than y. Otherwise, print False.
+
+Example:
+For x = 10, y = 5, the output should be x > y: True
+For x = 2, y = 8, the output should be x > y: False
+
+Input: x, y are integers entered through keyboard
+
+Output: Print True or False on the screen.
+
+Execution time limit:1s
