@@ -1,0 +1,8 @@
+Cho trước chuỗi s được nhập từ bàn phím, bạn hãy viết chương trình để đảo ngược từng từ trong chuỗi s và hiển thị ra màn hình. 
+
+Ví dụ
+	+) Nếu bạn nhập s = "Python Exercises" thì màn hình sẽ hiển thị ra "Exercises Python"
+
+	+) Nếu bạn nhập s = "This is an apple" thì màn hình sẽ hiển thị ra "apple an is This"
+
+* Gợi ý: Hoàn thành bài tập này bằng cách sử dụng hàm join() và split()
