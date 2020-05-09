@@ -1,0 +1,6 @@
+Bạn hãy viết hàm trả về tổng của các phần tử trong list các số nguyên được nhập vào từ bàn phím.
+
+Ví dụ
+	+) Nếu bạn nhập n = 3, lst = [2, 1, 6] thì màn hình sẽ hiển thị ra 9.
+
+	+) Nếu bạn nhập n = 4, lst = [1, 1, 2, 3] thì màn hình sẽ hiển thị ra 7.
