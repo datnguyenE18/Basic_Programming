@@ -1,0 +1,6 @@
+Cho chuỗi s được nhập từ bàn phím, bạn hãy viết chương trình chuyển các kí tự trong chuỗi s thành in hoa và hiển thị ra màn hình.
+
+Ví dụ:
+	+) Nếu bạn nhập s = "Codelearn" thì màn hình sẽ hiển thị ra CODELEARN
+
+	+) Nếu bạn nhập s = "abc123" thì màn hình sẽ hiển thị ra ABC123 
