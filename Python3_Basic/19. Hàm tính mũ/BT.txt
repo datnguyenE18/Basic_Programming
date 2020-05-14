@@ -1,0 +1,16 @@
+Task
+Given two integers a and b entered through the keyboard. Write a Python program to calculate the value of a to the power of b (a^b) and print the result on the screen.
+
+Example:
+	+) For a = 3, b = 4, the output should be 81
+		Because 3^4 = 81
+	+) For a = 5, b = 2, the output should be 25
+		Because 5^2 = 25
+
+Input: a, b are integer coming from the keyboards
+
+Output: The result displays on the screen as required
+	Execution time limit: 1s
+
+Suggestion
+	Write a function to take the value of a and b and use recursive method to calculate the value of a^b.

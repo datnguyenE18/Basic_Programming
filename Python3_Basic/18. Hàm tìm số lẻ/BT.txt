@@ -1,0 +1,14 @@
+Task
+Given a list res of integers. Write a Python program to find the even numbres in the list and print the list of even numbers on the screen.
+
+Example: 
+	+) For res = [1,2,3,4,5,6,7,8,9], the output should be [2,4,6,8]
+	+) For res = [10, 22, 33, 45, 79, 81], the output should be [10,22]
+
+Input: alist of integers coming inputted from the keyboard
+
+Output: The list of even numbers displays on the screen
+	Execution time limit: 1s
+
+Suggestion
+	Write a function to check if the numbers in the list are divisible by 2 and use the for loop to check all the elements.
