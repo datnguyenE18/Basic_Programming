@@ -1,0 +1,12 @@
+Task
+Given a string str. Write a Python program to check wheter the words in the string have more than 3 characters and print the list of words as required on the screen. 
+
+Example:
+	+) For str = "You are an awesome man", the output should be ['awesome']
+	+) For str = "CodeLearn helps you reach your goal", the output should be ['CodeLearn', 'helps', 'reach', 'your', 'goal']
+Input: a string inputted from the keyboards
+Output: a list of words displays on the screen
+	Execution time limit: 1s
+
+Suggestion
+You can use split() function to remove space in the string.

@@ -1,0 +1,18 @@
+Task
+Given a string str. Write a Python program to check:
+	- If str has at least 3 characrers then check:
+	- If str ends without an "ing" then add an "ing" at the end of the string (without spacing) and print the modified string to the screen.
+	- If str ends with an "ing" then add a "ly" at the end of the string (without spacing) and print the modified string to the screen.
+	- If str has less than 3 characters, return the original string.
+
+Example:
+	- For str = "ab", the output should be "ab"
+	- For str = "ping", the output should be "pingly"
+	- For str = "macbook", the output should be "macbooking"
+
+Input: a random string inputted from the keyboards
+Output: the result displays on the screen as required
+	Execution time limit: 1s
+
+Suggestion
+Use slicing method in the String lesson to complete this task.
