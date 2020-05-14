@@ -1,0 +1,19 @@
+Task
+Given 3 integers a, b and c that are 3 sides of a triangle. Write a Python program to check whether that triangle is equilateral, isosceles or scalene and print "Equilateral triangle", "Isosceles triangle" or "Scalene triangle" respectively on the screen.
+
+Example:
+	+) For a = 20, b = 20, c = 20, the output should be "Equilateral triangle"
+	+) For a = 33, b = 20, c = 15, the output should be "Scalene triangle"
+
+Input: 3 integers inputted from the keyboard
+
+Output: the result displays on the screen as required
+	Execution time limit: 1s
+
+
+Suggestion
+Use if else statement to complete this task.
+Note:
+	- An equilateral triangle is a triangle in which all three sides are equal.
+	- An isosceles triangle is a triangle with (at least) two equal sides.
+	- A scalene triangle is a triangle that has three unequal sides.
