@@ -1,0 +1,2 @@
+Trong ví dụ trên, map thực hiện hàm square cho từng phần tử trong danh sách, [1, 2, 3, 4, 5] và trả về [1, 4, 9, 16, 25].
+
