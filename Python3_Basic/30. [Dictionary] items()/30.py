@@ -1,4 +1,7 @@
-friend = {"Ten": "Nguyen Van A", "Tuoi": 22}
+friend = {
+    "Ten": "Nguyen Van A", 
+    "Tuoi": 22
+    }
 
 print( friend )
 x = friend.items()
