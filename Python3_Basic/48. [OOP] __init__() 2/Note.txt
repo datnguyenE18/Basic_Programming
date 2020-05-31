@@ -1,0 +1,1 @@
+Một biến được khai báo bên trong một lớp và một biến được khai báo bên trong một __init__hàm
