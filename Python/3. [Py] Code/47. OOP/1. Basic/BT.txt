@@ -1,0 +1,24 @@
+Your classes in this course will only have a few attributes and short methods, but the organizational principles behind the them will be directly translatable to more complicated code.
+
++) Modify the "Employee" class to include a ".set_name()" method that takes a "new_name" argument, and assigns "new_name" to the ".name" attribute of the class.
+
++) Use the "set_name()" method on emp to set the name to 'Korel Rossi'.
+
++) Print "emp.name".
+
+***************************************************************************************
+
+# Include a set_name method
+class Employee:
+  
+  ____ set_name(____, ____):
+    ____ = ____
+  
+# Create an object emp of class Employee  
+emp = Employee()
+
+# Use set_name() on emp to set the name of emp to 'Korel Rossi'
+____
+
+# Print the name of emp
+____
