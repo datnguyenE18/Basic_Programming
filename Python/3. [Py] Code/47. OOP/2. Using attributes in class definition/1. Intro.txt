@@ -1,0 +1,3 @@
+In the previous BT, you defined an "Employee" class with two attributes and two methods setting those attributes. This kind of method, aptly called a setter method, is far from the only possible kind. Methods are functions, so anything you can do with a function, you can also do with a method. For example, you can use methods to print, return values, make plots, and raise exceptions, as long as it makes sense as the behavior of the objects described by the class (an "Employee" probably wouldn't have a "pivot_table()" method).
+
+In this exercise, you'll go beyond the setter methods and learn how to use existing class attributes to define new methods. The "Employee" class and the "emp" object from the previous exercise are in your script pane.

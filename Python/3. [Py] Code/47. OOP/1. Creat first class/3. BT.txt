@@ -1,0 +1,25 @@
++) Follow the pattern to add another method - "set_salary()" - that will set the "salary" attribute of the class to the parameter "new_salary" passed to method.
+
++) Set the salary of "emp" to 50000.
+
++) Try printing "emp.salary" before and after calling "set_salary()".
+
+***************************************************************************************
+
+class Employee:
+  
+  def set_name(self, new_name):
+    self.name = new_name
+  
+  # Add set_salary() method
+  ___
+  
+  
+# Create an object emp of class Employee  
+emp = Employee()
+
+# Use set_name to set the name of emp to 'Korel Rossi'
+emp.set_name('Korel Rossi')
+
+# Set the salary of emp to 50000
+___

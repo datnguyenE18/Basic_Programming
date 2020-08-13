@@ -1,0 +1,24 @@
+Raising a salary for an employee is a common pattern of behavior, so it should be part of the class definition instead.
+
++) Add a method "give_raise()" to "Employee" that increases the salary by the amount passed to "give_raise()" as a parameter.
+
+************************************************************************************
+
+class Employee:
+    def set_name(self, new_name):
+        self.name = new_name
+
+    def set_salary(self, new_salary):
+        self.salary = new_salary 
+
+    # Add a give_raise() method with raise amount as a parameter
+    ___
+
+
+emp = Employee()
+emp.set_name('Korel Rossi')
+emp.set_salary(50000)
+
+print(emp.salary)
+emp.give_raise(1500)
+print(emp.salary)

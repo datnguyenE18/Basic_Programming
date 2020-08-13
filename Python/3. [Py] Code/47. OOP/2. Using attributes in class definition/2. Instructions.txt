@@ -1,0 +1,25 @@
++) Print the "salary" attribute of "emp".
+
++) Attributes aren't read-only: use assignment (equality sign) to increase the "salary" attribute of "emp" by 1500, and print it again.
+
+**************************************************************************************
+
+class Employee:
+    def set_name(self, new_name):
+        self.name = new_name
+
+    def set_salary(self, new_salary):
+        self.salary = new_salary 
+  
+emp = Employee()
+emp.set_name('Korel Rossi')
+emp.set_salary(50000)
+
+# Print the salary attribute of emp
+____
+
+# Increase salary of emp by 1500
+emp.salary = ____ + ____
+
+# Print the salary attribute of emp again
+____
