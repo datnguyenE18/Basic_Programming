@@ -1,0 +1,5 @@
+you'll continue working on the "Employee" class. Instead of using the methods like "set_salary()", you will introduce a constructor that assigns name and salary to the employee at the moment when the object is created.
+
+You'll also create a new attribute -- "hire_date" -- which will not be initialized through parameters, but instead will contain the current date.
+
+Initializing attributes in the constructor is a good idea, because this ensures that the object has all the necessary attributes the moment it is created.

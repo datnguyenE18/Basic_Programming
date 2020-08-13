@@ -1,4 +1,4 @@
-class Person: #Một người nào đó có ten và có tuoi
+class Person: # Một người nào đó có ten và có tuoi
     def __init__( self, name, age ):
         self.ten = name
         self.tuoi = age
