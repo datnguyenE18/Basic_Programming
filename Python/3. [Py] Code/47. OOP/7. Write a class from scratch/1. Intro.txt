@@ -1,0 +1,3 @@
+You are a Python developer writing a visualization package. For any element in a visualization, you want to be able to tell the position of the element, how far it is from other elements, and easily implement horizontal or vertical flip .
+
+The most basic element of any visualization is a single point. In this exercise, you'll write a class for a point on a plane from scratch.
