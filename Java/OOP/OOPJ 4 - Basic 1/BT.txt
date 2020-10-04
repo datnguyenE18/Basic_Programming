@@ -1,0 +1,21 @@
+Màn hình hiển thị ra thông tin sau:
+
+Name: Tuan
+Age: 24
+Name: Cuong
+Age: 25
+Name: Duc
+Age: 24
+
+*****************************************************
+Hướng dẫn
+Bạn cần lưu ý rằng việc khai báo và sử dụng mảng các đối tượng không giống với khai báo và sử dụng mảng các kiểu dữ liệu nguyên thủy như int, double, String, ...
+
+Để sử dụng được các phần tử trong mảng bạn cần phải khởi tạo cho từng phần tử. Ví dụ:
+
+// Khai báo mảng students với n phần tử
+Student[] students = new Student[n];
+for (int i = 0; i < n; i++) {
+	// Khởi tạo các phần tử trong mảng students
+	students[i] = new Student();
+}
