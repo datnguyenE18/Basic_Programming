@@ -1,0 +1,1 @@
+In ra 256 kí tự bảng mã ASCII, mỗi kí tự cách nhau bởi một dấu cách

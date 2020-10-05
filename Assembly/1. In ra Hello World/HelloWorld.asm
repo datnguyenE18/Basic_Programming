@@ -1,7 +1,7 @@
 .Model Tiny
 .Stack 100h
 .Data
-   xin_chao dw "Hello World!", "$"
+   xin_chao db "Hello World!", "$"
 .Code
  Start:
     Mov AX,@Data      
@@ -10,5 +10,4 @@
     Mov DX, Offset xin_chao
     Int 21h
     Mov AH,4Ch
-    Int 21h
  End Start

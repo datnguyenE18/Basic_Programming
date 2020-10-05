@@ -4,13 +4,12 @@
 .Code
 Start:
     mov cx, 256
-    mov al, 0
+    mov dl, 0    
     
     lp:
-        mov ah, 2
-        mov dl, al
+        mov ah, 2   
         int 21h
-        inc al
+        inc dl
         
     loop lp
     mov ah, 4Ch
