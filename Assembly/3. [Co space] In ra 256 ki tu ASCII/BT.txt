@@ -1,1 +1,2 @@
-In ra 256 kí tự bảng mã ASCII, mỗi kí tự cách nhau bởi một dấu cách
+In ra 256 kí tự bảng mã ASCII, mỗi kí tự cách nhau bởi một dấu cách (C1)
+* Mở rộng: chỉ in 25 kí tự trên 1 dòng, sau đó xuống dòng (C2)
