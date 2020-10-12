@@ -1,13 +1,11 @@
-.Model Tiny
+.Model Tiny                         ;code, data & program in 1 64K segment
 .Stack 100h
 .Data
-   xin_chao db "Hello World!", "$"
-.Code
+   xin_chao db "Hello World!", "$"  ;xin_chao to be displayed terminated with $(indicates end of string)
+.Code                               ;code segment
  Start:
-    Mov AX,@Data      
-    Mov DS, AX
-    Mov AH,9
-    Mov DX, Offset xin_chao
-    Int 21h
-    Mov AH,4Ch
+    Mov AH,9                        ;function to display a string
+    Mov DX, Offset xin_chao         ;offset of xin_chao string terminated with $
+    Int 21h                         ;DOS interrupt
+    Mov AH, 4Ch                     ;funtion to terminate
  End Start
