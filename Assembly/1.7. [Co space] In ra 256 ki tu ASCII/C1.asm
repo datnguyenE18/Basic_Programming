@@ -1,9 +1,11 @@
 .Model Small
+
 .Stack 100h 
+
 .Data
     k db 1 
 .Code
-Start:
+ Start:
     Mov AX, @Data
     Mov DS, AX 
 
