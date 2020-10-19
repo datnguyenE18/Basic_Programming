@@ -1,0 +1,2 @@
+Enter a natural number N from the keyboard. Compute N! and print out the result.
+( 0 <= N <= 9)
