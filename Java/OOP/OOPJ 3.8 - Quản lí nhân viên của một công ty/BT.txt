@@ -1,0 +1,7 @@
+viết một chương trình quản lí nhân viên của một công ty. Bao gồm các lớp chính:
+
+	+) Lớp Human là một lớp trừu tượng, chỉ có một phương thức duy nhất là show().
+
+	+) Lớp Person là lớp kế thừa từ lớp Human, có hai thuộc tính là tên (name) và tuổi (age). Để đóng gói dữ liệu các thuộc tính này có dạng private và các phương thức truy nhập chúng (get và set). Ngoài ra lớp này còn cài đặt phương thức show() kế thừa từ lớp trừu tượng Human.
+
+	+) Lớp Employee là lớp kế thừa từ lớp Person, có thêm thuộc tính là lương (salary). Thuộc tính này cũng có dạng private để đóng gói dữ liệu và cần các phương thức truy nhập get/set. Lớp này cài đặt lại phương thức show(). Hơn nữa, lớp Employee còn có thêm hai phương thức addSalary() và addSalary(float) để tính tăng lương cho nhân viên: một phương thức tăng lương theo tỉ lệ mặc định là 10% (không cần tham số), và một phương thức tăng theo giá trị cụ thể đưa vào (cần tham số).
