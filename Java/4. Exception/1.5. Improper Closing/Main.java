@@ -1,5 +1,3 @@
-package jvprj;
-
 import java.io.*;
 
 public class Main {
@@ -20,3 +18,7 @@ public class Main {
         }
     }
 }
+
+/*
+Could not find the file 'song.mp3'
+*/

@@ -1,5 +1,3 @@
-package jvprj;
-
 // Tạo ngoại lệ tùy chỉnh thuộc loại checked exception:
 class InvalidAgeException extends Exception {
 
