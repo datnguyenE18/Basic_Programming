@@ -1,0 +1,19 @@
+Từ khóa throws trong java được sử dụng để khai báo một ngoại lệ. Nó thể hiện thông tin cho lập trình viên rằng có thể xảy ra một ngoại lệ, vì vậy nó là tốt hơn cho các lập trình viên để cung cấp các mã xử lý ngoại lệ để duy trì luồng bình thường của chương trình.
+
+Exception Handling chủ yếu được sử dụng để xử lý ngoại lệ checked. Nếu xảy ra bất kỳ ngoại lệ unchecked như NullPointerException, đó là lỗi của lập trình viên mà anh ta không thực hiện kiểm tra trước khi code được sử dụng.
+
+Cú pháp:
+
+return_type method_name() throws exception_class_name {
+// method code
+}
+
+Ngoại lệ nào nên được khai báo
+
+Chỉ ngoại lệ checked, bởi vì:
+* Ngoại lệ unchecked: nằm trong sự kiểm soát của bạn.
+* error: nằm ngoài sự kiểm soát của bạn, ví dụ bạn sẽ không thể làm được bất kì điều gì khi các lỗi VirtualMachineError hoặc StackOverflowError xảy ra.
+
+Lợi ích của từ khóa throws trong java
+* Ngoại lệ checked có thể được ném ra ngoài và được xử lý ở một hàm khác.
+* Cung cấp thông tin cho caller của phương thức về các ngoại lệ.

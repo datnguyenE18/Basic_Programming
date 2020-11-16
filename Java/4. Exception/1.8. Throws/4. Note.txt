@@ -1,0 +1,9 @@
+Lưu ý: 
+
++) Nếu đang gọi một phương thức khai báo throws một ngoại lệ, chúng ta phải bắt hoặc throws ngoại lệ đó. Có hai trường hợp:
+* Trường hợp bắt ngoại lệ, tức là xử lý ngoại lệ bằng cách sử dụng try/catch.
+* Trường hợp khai báo ném ngoại lệ, tức là sử dụng từ khóa throws với phương thức.
+
++) Trong trường hợp bạn khai báo throws ngoại lệ, nếu ngoại lệ không xảy ra, code sẽ được thực hiện tốt.
+
++) Trong trường hợp bạn khai báo throws ngoại lệ, nếu ngoại lệ xảy ra, một ngoại lệ sẽ được ném ra tại runtime vì throws nên không xử lý ngoại lệ đó.
