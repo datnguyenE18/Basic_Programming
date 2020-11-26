@@ -1,0 +1,13 @@
+Rewrite the previous program (1.2) so that it reads the entire file.
+
+Output:
+
+number = 308.2
+number = 14.9
+number = 7.4
+number = 2.8
+number = 3.9
+number = 4.7
+number = -15.4
+number = 2.8
+Sum = 329.29999999999995

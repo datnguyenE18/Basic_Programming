@@ -1,0 +1,20 @@
+Write a program that reads a text file and "quotes" it by putting a > in front of each line.
+
+	Input:
+
+Hey Prof. Yates,
+
+I would like to know more about files.  Please explain them to me.
+
+Sincerely,
+Susie Q. Student
+
+*********************************************************************************************
+	Output:
+
+> Hey Prof. Yates,
+
+> I would like to know more about files.  Please explain them to me.
+
+> Sincerely,
+> Susie Q. Student
