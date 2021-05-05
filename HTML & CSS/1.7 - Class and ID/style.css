@@ -1,0 +1,14 @@
+h1{
+    color: red;
+    background-color: yellow;
+}
+
+h1.h1-den{
+    color: black;
+    background-color: white;
+}
+
+h1.h1-vang{
+    color: yellow;
+    background-color: white;
+}
