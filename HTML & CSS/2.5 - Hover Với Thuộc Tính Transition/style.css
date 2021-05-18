@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-color: #E7E7E7;
+}
+
+.main-container{
+	width: 380px;
+	height: 210px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #FFFFFF
+}
+
+.follow-title{
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFFFFF;
+	border-bottom: 2px solid black;
+}
+
+.follow-title h3{
+	background-color: black;
+	display: inline-block;
+	color: #FADA1A;
+	padding: 5px 10px
+}
+
+.follow-icon{
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFFFFF;
+	/*padding-top: 20px;*/
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+
+.icon{
+	width: 120px;
+	height: 120px;
+	background-color: #3B5998;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	margin-top: 20px; /*Thay đổi vị trị bằng cách giảm margin-top*/
+	transition: 0.4s; /*Thay đổi tốc độ, thời gian của hiệu ứng hover bằng thuộc tính mới. Thêm transition: 0.4s vào khối icon trước hover và sau hover.*/
+}
+
+.icon i{
+	font-size: 50px;
+	color: white;
+	background-color: transparent;
+	display: block;
+	margin-top: 10px; 
+}
+.icon p{
+	background-color: transparent;
+	margin-top: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.twitter{
+	background-color: #1DCAFF;
+}
+
+.google-plus{
+	background-color: #DD4B39;
+	margin-right: 0px;
+}
+.icon:hover{
+	background-color: black;
+	margin-top: 15px;
+	transition: 0.4s;
+}
+.display{
+	display: inline-block;
+	background-color: white;
+	color: #FADA1A;
+	position: relative;
+	top: 12px;
+	left: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
