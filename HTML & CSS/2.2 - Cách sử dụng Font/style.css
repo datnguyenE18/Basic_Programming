@@ -1,0 +1,9 @@
+/*Định nghĩa Font:*/
+@font-face {
+    src: url(font/Itim-Regular.ttf);
+    font-family: test; 
+}
+
+.font-1{
+    font-family: test;
+}
