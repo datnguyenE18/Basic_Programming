@@ -7,11 +7,11 @@ Tạo bảng EMP chứa các trường được mô tả dưới đây với cá
 + Cột comm (tỉ lệ hoa hồng) có giá trị mặc định là 0,03
 */
 
-CREATE DATABASE B2;
-USE B2;
-
+CREATE DATABASE B2; 
+USE
+    B2;
 CREATE TABLE EMP(
-	emp_id INT,
+    emp_id INT,
     emp_name VARCHAR(10),
     hire_date DATE DEFAULT CURRENT_DATE,
     salary DECIMAL(7, 2),
