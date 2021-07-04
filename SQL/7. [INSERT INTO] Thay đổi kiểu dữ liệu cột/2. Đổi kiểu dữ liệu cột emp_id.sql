@@ -1,5 +1,5 @@
-ALTER TABLE
-    employees MODIFY COLUMN emp_id VARCHAR(7);
+ALTER TABLE employees 
+	MODIFY COLUMN emp_id VARCHAR(7);
     
 INSERT INTO employees(
     emp_id,
