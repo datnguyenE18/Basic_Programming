@@ -1,2 +1,0 @@
-DROP TABLE IF EXISTS professors;
-DROP TABLE IF EXISTS address;
