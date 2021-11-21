@@ -13,6 +13,7 @@ public class View extends javax.swing.JFrame {
 
     public View() {
         initComponents();
+	this.setLocationRelativeTo(null); // Căn giữa
         
         // Tạo cấu trúc bảng:
         String[] cols = {"Name", "Code", "Team"};
