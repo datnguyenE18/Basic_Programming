@@ -41,7 +41,7 @@ public class SinhVien implements Serializable {
         this.team = team;
     }
 
-    public Object[] toObject() { // ???
+    public Object[] toObject() { // Gom dữ liệu thành một object rồi gửi đi
         return new Object[]{
             name, code, team
         };

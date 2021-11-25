@@ -201,7 +201,7 @@ public class View extends javax.swing.JFrame {
             check = false;
         }
 
-        for (char c : teamString.toCharArray()) { // ???
+        for (char c : teamString.toCharArray()) {
             if (!Character.isDigit(c)) {
                 JOptionPane.showMessageDialog(this, "Class is Invalid!");
                 check = false;
@@ -212,7 +212,7 @@ public class View extends javax.swing.JFrame {
         if (check) {
             int team = Integer.parseInt(teamString); // Chuyển String sang Int
             SinhVien sv = new SinhVien(name, code, team);
-            table.addRow(sv.toObject()); // ???
+            table.addRow(sv.toObject());
 
             // Xóa thông tin đã nhập trước đó:
             jTFName.setText("");
