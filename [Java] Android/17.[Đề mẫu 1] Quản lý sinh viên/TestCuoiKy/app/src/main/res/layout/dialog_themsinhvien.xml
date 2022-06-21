@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="THÊM SINH VIÊN"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#CC0B0B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/addten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sinh viên"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/addnamsinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chọn năm sinh"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/addquequan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quê quán"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <Spinner
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/spinnerStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/themsv"
+            android:layout_marginRight="5dp"
+            android:text="Thêm"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/huysv"
+            android:layout_marginLeft="5dp"
+            android:text="Hủy"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

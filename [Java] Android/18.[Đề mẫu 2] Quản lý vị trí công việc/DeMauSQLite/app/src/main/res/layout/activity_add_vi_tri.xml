@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddViTri">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="ID"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/edtAddID"
+                android:enabled="false"
+                android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Ten vi tri" android:textSize="20sp"/>
+            <EditText android:id="@+id/editAddName" android:textSize="20sp" android:hint="Vi tri"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Mo ta" android:textSize="20sp"/>
+            <EditText android:id="@+id/editAddDescription" android:textSize="20sp" android:hint="Mo ta"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="336dp"
+            android:layout_height="117dp">
+            <Button
+                android:id="@+id/btnAddVT"
+                android:layout_margin="10dp"
+                android:text="Them VT"
+                android:textSize="20sp"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

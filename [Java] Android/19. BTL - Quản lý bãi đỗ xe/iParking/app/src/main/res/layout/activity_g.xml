@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6677B9"
+    tools:background="#6677B9"
+    tools:context=".ActivityG">
+
+    <ScrollView
+        android:id="@+id/scroolview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dangkyxe"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:text="Đăng ký xe"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <EditText
+                android:id="@+id/hangxe"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Hãng xe"
+                android:textSize="24sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dangkyxe" />
+
+            <EditText
+                android:id="@+id/bienso"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Biển số"
+                android:textSize="24sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hangxe" />
+
+            <TextView
+                android:id="@+id/thoigianxevao"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:text="Thời gian xe vào"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bienso" />
+
+            <com.example.iparking.MyTextClock
+                android:id="@+id/myTextClock2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:format12Hour="@null"
+                android:format24Hour="yyyy-MM-dd HH:mm:ss"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintTop_toBottomOf="@+id/thoigianxevao" />
+
+            <TextView
+                android:id="@+id/thoigianguixe"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:text="Thời gian gửi xe"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/myTextClock2" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/thoigianguixe" />
+
+            <Button
+                android:id="@+id/button_increase"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:text="+"
+                app:layout_constraintTop_toBottomOf="@+id/seekBar"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/button_decrease"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:text="-"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/seekBar"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/chonvitriguixe"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:text="Chọn vị trí gửi xe"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_decrease" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/sodobaixeA"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Sơ đồ bãi xe A"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/a1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="A1"
+                    android:textColor="@color/black"
+                    app:layout_constraintTop_toBottomOf="@+id/sodobaixeA"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/a3"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="A3"
+                    android:textColor="@color/black"
+                    app:layout_constraintLeft_toRightOf="@+id/a1"
+                    app:layout_constraintTop_toBottomOf="@+id/sodobaixeA"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/a5"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="A5"
+                    android:textColor="@color/black"
+                    app:layout_constraintTop_toBottomOf="@+id/a1"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/a7"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="A7"
+                    android:textColor="@color/black"
+                    app:layout_constraintLeft_toRightOf="@+id/a5"
+                    app:layout_constraintTop_toBottomOf="@+id/a1"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/a4"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="A4"
+                    android:textColor="@color/black"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sodobaixeA"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/a2"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="A2"
+                    android:textColor="@color/black"
+                    app:layout_constraintRight_toLeftOf="@+id/a4"
+                    app:layout_constraintTop_toBottomOf="@+id/sodobaixeA"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/a8"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="A8"
+                    android:textColor="@color/black"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/a4"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/a6"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="A6"
+                    android:textColor="@color/black"
+                    app:layout_constraintRight_toLeftOf="@+id/a8"
+                    app:layout_constraintTop_toBottomOf="@+id/a4"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                >
+
+                <TextView
+                    android:id="@+id/sodobaixeB"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Sơ đồ bãi xe B"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    />
+
+                <CheckBox
+                    android:id="@+id/b1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="B1"
+                    android:textColor="@color/black"
+                    app:layout_constraintTop_toBottomOf="@+id/sodobaixeB"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/b3"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="B3"
+                    android:textColor="@color/black"
+                    app:layout_constraintLeft_toRightOf="@+id/b1"
+                    app:layout_constraintTop_toBottomOf="@+id/sodobaixeB"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/b5"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="B5"
+                    android:textColor="@color/black"
+                    app:layout_constraintTop_toBottomOf="@+id/b1"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/b7"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="B7"
+                    android:textColor="@color/black"
+                    app:layout_constraintLeft_toRightOf="@+id/b5"
+                    app:layout_constraintTop_toBottomOf="@+id/b1"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/b4"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="B4"
+                    android:textColor="@color/black"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sodobaixeB"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/b2"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="B2"
+                    android:textColor="@color/black"
+                    app:layout_constraintRight_toLeftOf="@+id/b4"
+                    app:layout_constraintTop_toBottomOf="@+id/sodobaixeB"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/b8"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="B8"
+                    android:textColor="@color/black"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/b4"
+                    tools:ignore="MissingConstraints" />
+
+                <CheckBox
+                    android:id="@+id/b6"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/white"
+                    android:text="B6"
+                    android:textColor="@color/black"
+                    app:layout_constraintRight_toLeftOf="@+id/b8"
+                    app:layout_constraintTop_toBottomOf="@+id/b4"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
+                android:id="@+id/dangkyguixe"
+                android:layout_width="380dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="24dp"
+                android:text="Đăng ký gửi xe"
+                android:textColor="@color/white"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

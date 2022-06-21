@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "309650973682",
+    "firebase_url": "https://iparking-17158-default-rtdb.firebaseio.com",
+    "project_id": "iparking-17158",
+    "storage_bucket": "iparking-17158.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309650973682:android:c468f837a7d3b4a6fc416b",
+        "android_client_info": {
+          "package_name": "com.example.iparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309650973682-tc7gks720lilc40tcl1h1t6ftes9r7ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnTYCtukQjeA511EHrVPPPJ2Vkm4fWyoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309650973682-tc7gks720lilc40tcl1h1t6ftes9r7ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

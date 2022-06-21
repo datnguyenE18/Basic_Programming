@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Spinner
+        android:layout_alignParentRight="true"
+        android:id="@+id/spinnerSinhVien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:text="Mã sinh viên"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:text="Tên sinh viên"
+            android:id="@+id/tensinhvien"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:text="Ngày sinh"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:text="Quê quán"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:text="Năm học"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ListView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/title"
+        android:id="@+id/listviewSinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</RelativeLayout>
