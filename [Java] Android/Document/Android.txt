@@ -1,0 +1,66 @@
+// Nội dung thi:
++ Lúc vào phải code 3 model luôn
++ Sau đó Nhìn một lượt luôn các câu hỏi, rồi vẽ giao diện
++ Rồi code DatabaseHelper luôn
+	- Dùng SQLlite để lưu dữ liệu
+	- Viết các Query SQL
+	- Tạo db
+	- Tạo bảng
++ Mã sinh viên phải tăng tự động --> xử lý trong database
+
+====================================================================================
+
+// ScrollView
+* Để ScrollView quận được:
+	android:layout_height="fill_parent"
+
+* textview chiếm hết không gian có sẵn:
+	android:fillViewport="true"
+	android:layout_weight="1.0"
+
+====================================================================================
+// ActionBar
+* Thêm nút Back ở thanh ActionBar:
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.register);
+		
+		// thêm dòng này:
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+* Thay đổi tiêu đề ActionBar:
+	getSupportActionBar().setTitle("Dịch vụ");
+
+* Đổi màu ActionBar:
+	getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#6677B9")));
+
+* Ẩn thanh ActionBar:
+	getSupportActionBar().hide();
+	
+====================================================================================
+// Other:
+* Màu ConfirmView:
+	#FF75AFDD
+	
+* Chọn Activity Default (ưu tiên chạy) trong AndroidManifest.xml:
+	activity
+            android:name=".SpinnerActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+* Thanh phía dưới:
+	Bottom Navigation (jdk 14 trở lên)
+
+* Thanh phía trên ghi tiêu đều và nút back:
+	ActionBar
+
+====================================================================================
+// Hiện thông báo:
+
+* Toast.makeText(MainActivity.this, "Nội dung thông báo", Toast.LENGTH_SHORT).show();	
