@@ -1,6 +1,0 @@
-Khai báo cấu trúc 1 phân số : 1 phân số luôn có tử số và mẫu số
-a) Nhập danh sách các phân số
-b) Lập danh sách các phân số
-c) Rút gọn các phân số
-d) Tìm phân số lớn nhất
-e) Tính tổng tất cả các phân số

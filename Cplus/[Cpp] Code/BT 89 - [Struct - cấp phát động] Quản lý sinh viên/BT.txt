@@ -1,3 +1,0 @@
-Viết chương trình quản lý sinh viên
-Nhập và in ra thông tin sinh viên
-Sau đó sắp xếp thứ tự thông tin theo số điểm

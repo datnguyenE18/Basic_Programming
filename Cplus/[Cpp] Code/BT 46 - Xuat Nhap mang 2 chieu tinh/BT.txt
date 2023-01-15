@@ -1,1 +1,0 @@
-Viết chương trình cơ bản xuất nhập mảng 2 chiều tĩnh

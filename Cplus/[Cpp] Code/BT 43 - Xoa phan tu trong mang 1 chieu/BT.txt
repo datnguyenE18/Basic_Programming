@@ -1,1 +1,0 @@
-Viết chương trình minh họa xóa phần tử trong mảng 1 chiều

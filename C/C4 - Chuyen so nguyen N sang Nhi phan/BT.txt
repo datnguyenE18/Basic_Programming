@@ -1,5 +1,0 @@
-﻿Chuyển một số nguyên N sang hệ Nhị Phân 
-Dữ liệu đọc từ file input.txt
-in kết quả ra màn hình
-Sử dụng: char *doinhiphan(long n);
-	void doctep(long &n);

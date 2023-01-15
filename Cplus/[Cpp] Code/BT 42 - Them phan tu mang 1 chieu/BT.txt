@@ -1,1 +1,0 @@
-Viết chương trình minh họa hàm thêm phần tử vào mảng một chiều

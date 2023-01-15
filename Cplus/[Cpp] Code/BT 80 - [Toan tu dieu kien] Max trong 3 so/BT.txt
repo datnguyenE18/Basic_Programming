@@ -1,9 +1,0 @@
-Bài tập
-Cho 3 số nguyên a, b, c. Viết chương trình để tìm ra số lớn nhất trong ba số đã cho.
-
-Ví dụ
-Với a = 6, b = 9, c = 18, số "18" hiển thị trên màn hình.
-Vì 18 > 9 và 18 > 6, nghĩa là 18 là số lớn nhất trong ba số.
-Đầu vào: ba số nguyên nhập vào từ bàn phím.
-Đầu ra: số lớn nhất trong ba số.
-Thời gian chạy: 0.2s

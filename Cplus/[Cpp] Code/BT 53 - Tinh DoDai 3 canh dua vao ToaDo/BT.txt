@@ -1,2 +1,0 @@
-Viết chương trình nhập tọa độ 3 cạnh của tam giác thông qua tọa độ 3 đỉnh 
-Dùng Struct lồng nhau

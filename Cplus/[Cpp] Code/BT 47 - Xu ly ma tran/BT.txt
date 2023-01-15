@@ -1,1 +1,0 @@
-Dùng hàm 2 chiều tĩnh để xử lý ma trận

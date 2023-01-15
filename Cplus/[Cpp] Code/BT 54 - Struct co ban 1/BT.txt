@@ -1,1 +1,0 @@
-Lấy các ví dụ cơ bản về struct
