@@ -1,1 +1,0 @@
-Write a program to MOV data using immediate addressing, register addressing and memory addressing in Assembly Language.

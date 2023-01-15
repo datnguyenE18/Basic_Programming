@@ -1,1 +1,0 @@
-Write a program  to add two decimal, binary & hexadecimal numbers using memory addressing in Assembly Language.
